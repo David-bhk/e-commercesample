@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Baloo+Thambi+2&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/*      Sass Template       */
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-arvo {
+  font-family: "Arvo", cursive;
+}
+
+.font-montserrat {
+  font-family: "Monterrat", cursive;
+}
+
+.font-rale {
+  font-family: "Rale", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #ffff;
+}
+
+.color-primary-bg {
+  background: #ffff;
+}
+
+.color-font {
+  color: #707070;
+}
+
+.color-font-bg {
+  background: #707070;
+}
+
+.color-btn1 {
+  color: #3163EE;
+}
+
+.color-btn1-bg {
+  background: #3163EE;
+}
+
+.color-btn2 {
+  color: #4FBBF9;
+}
+
+.color-btn2-bg {
+  background: #4FBBF9;
+}
+
+.color-h2txt {
+  color: #000000;
+}
+
+.color-h2txt-bg {
+  background: #000000;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-primar {
+  color: #003859;
+}
+
+.color-primar-bg {
+  background: #003859;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #707070;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 35px;
+  color: #707070;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
+#special-price .grid .grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
